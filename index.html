@@ -6,153 +6,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- CABEÇALHO -->
     <header>
 
-        <!-- CAIXA FOTO DE PERFIL -->
+        <div class="container">
 
-        <div>
-            <figure>
-                <img src="img/" alt="João Pedro Marques">
-                <figcaption>João Pedro Marques</figcaption>
-            </figure>
+            <div class="linha">
+                <!-- CAIXA FOTO DE PERFIL -->
+                <div class="coluna coluna-esquerda">
+                    <figure>
+                        <img src="img/Profile2.png" alt="João Pedro Marques">
+                        <figcaption class="hidden">João Pedro Marques</figcaption>
+                    </figure>
+                </div>
+
+                <!-- INFORMAÇÕES PESSOAIS -->
+                <div class="coluna coluna-direita">
+                    <h1>João Pedro Marques</h1>
+                    <p>Técnico de Informática na HyperSoft</p>
+                    <ul>
+                        <li>
+                            <a href="mailto:thejoao94@gmail.com">thejoao94@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:5562982557312">(62)98255-7312</a>
+                        </li>
+                        <li>
+                            <a href="#">Goiânia, Goiás</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- INFORMAÇÕES PESSOAIS -->
-
-        <div>
-            <h1>João Pedro Marques</h1>
-            <p>Técnico de Informática na HyperSoft</p>
-            <ul>
-                <li>
-                    <a href="mailto:thejoao94@gmail.com">thejoao94@gmail.com</a>
-                </li>
-                <li>
-                    <a href="tel:5562982557312">(62)98255-7312</a>
-                </li>
-                <li>
-                    <a href="#">Goiânia, Goiás</a>
-                </li>
-            </ul>
-        </div>
-
-
     </header>
 
     <main>
 
-        <!-- CONTEUDO LADO ESQUERDO -->
-        <div>
-            <section>
-                <h2>Perfil Profissional</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
-            </section>
+        <div class="container">
+            <div class="linha">
+                <!-- CONTEUDO LADO ESQUERDO -->
+                <div class="coluna coluna-esquerda">
+                    <section>
+                        <h2>Perfil Profissional</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
+                    </section>
 
-            <section>
-                <h2>Especialidade</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Bootstrap</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Node JS</li>
-                    <li>Fire Base</li>
-                    <li>MySQL</li>
-                </ul>
-            </section>
+                    <section>
+                        <h2>Especialidade</h2>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Node JS</li>
+                            <li>Fire Base</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </section>
 
-            <section>
-                <h2>Cursos</h2>
-                <ul>
-                    <li>Curso Desenvolvimento Web - Igor Oliveira </li>
-                    <li>Formação Java Master Developer - SoftBlue</li>
-                    <li>Modelagem de Banco de Dados - Alura</li>
-                </ul>
-            </section>
-        </div>
+                    <section>
+                        <h2>Cursos</h2>
+                        <ul>
+                            <li>Curso Desenvolvimento Web - Igor Oliveira </li>
+                            <li>Formação Java Master Developer - SoftBlue</li>
+                            <li>Modelagem de Banco de Dados - Alura</li>
+                        </ul>
+                    </section>
+                </div>
+        
+            <!-- CONTEUDO LADO DIREITO -->
 
-        <!-- CONTEUDO LADO DIREITO -->
-        <div>
-            <section>
-                <h2>Experiências</h2>
-                <ul>
-                    <li>
-                        <h3>Técnico de Informática</h3>
-                        <strong>HyperSoft - Tempo Integral</strong>
-                        <p><i></i></p>
-                        <p>Período do empregador. de 2018 - o momento - Localidade: Goiânia, Goiás</p>
-                    </li>
+                <div class="coluna coluna-direita">
+                    <section>
+                        <h2>Experiências</h2>
+                        <ul>
+                            <li>
+                                <h3>Técnico de Informática</h3>
+                                <strong>HyperSoft - Tempo Integral</strong>
+                                <p><i></i></p>
+                                <p>Período do empregador. de 2018 - o momento - Localidade: Goiânia, Goiás</p>
+                            </li>
+                    </section>
 
-            </section>
+                    <section>
+                        <h2>Formação</h2>
+                        <ul>
+                            <li>
+                                <h3>Análise e Desenvolvimento de Sistemas <strong>2020/1 - o momento</strong> </h3>
+                                <p>Unigoiás - Goiânia, Goiás</p>
+                            </li>
+                        </ul>
 
-            <section>
-                <h2>Formação</h2>
-                <ul>
-                    <li>
-                        <h3>Análise e Desenvolvimento de Sistemas <strong>2020/1 - o momento</strong> </h3>
-                        <p>Unigoiás - Goiânia, Goiás</p>
-                    </li>
-                </ul>
-
-                <ul>
-                    <li>
-                        <h3>Relações Internacionais <strong>2011 - 2015</strong></h3>
-                        <p>Pontifícia Universidade Católica de Goiás - Goiânia, Goiás</p>
-                    </li>
-                </ul>
-            </section>
+                        <ul>
+                            <li>
+                                <h3>Relações Internacionais <strong>2011 - 2015</strong></h3>
+                                <p>Pontifícia Universidade Católica de Goiás - Goiânia, Goiás</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
         </div>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <div>
+        <div class="container">
 
             <nav>
 
-                <li>
-                    <a href="mailto:thejoao94@gmail.com">thejoao94@gmail.com</a>
-                </li>
-                <li>
-                    <a href="tel:5562982557312">(62)98255-7312</a>
-                </li>
-                <li>
-                    <a href="#">Goiânia, Goiás</a>
-                </li>
-
+                <div class="info-contato">
+                    <li>
+                        <a href="mailto:thejoao94@gmail.com">thejoao94@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:5562982557312">(62)98255-7312</a>
+                    </li>
+                    <li>
+                        <a href="#">Goiânia, Goiás</a>
+                    </li>
+                </div>
             </nav>
 
             <nav>
-                <li>
-                    <a href="">
-                        <img src="" alt="Linkedin">
-                        <p>Linkedin</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="Github">
-                        <p>Github</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="Instagram">
-                        <p>Instagram</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="" alt="YouTube">
-                        <p>YouTube</p>
-                    </a>
-                </li>
+                <ul class="redes-sociais">
+                    <li>
+                        <a href="">
+                            <img src="" alt="Linkedin">
+                            <p>Linkedin</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="Github">
+                            <p>Github</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="Instagram">
+                            <p>Instagram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="" alt="YouTube">
+                            <p>YouTube</p>
+                        </a>
+                    </li>
+                </ul>
             </nav>
 
         </div>
